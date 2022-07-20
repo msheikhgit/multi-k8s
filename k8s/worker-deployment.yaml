@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: msheikhdocker/multi-worker
+          image: msheikdocker/multi-worker
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
